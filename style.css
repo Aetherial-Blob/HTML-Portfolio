@@ -1,0 +1,147 @@
+html, body {
+    height: 100%; /* Ensure the full height of the page */
+    margin: 1%;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/code-uses.png");
+    background-position: center;
+    background-repeat: no-repeat; /* No repeating of the background image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-attachment: fixed; /* Make the background fixed during scroll */
+    color: rgb(0, 0, 0); /* Optional: for better visibility of text */
+    padding: 1%;
+  }
+
+header  {
+    background-image: url("./images/space-planet-mercury.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border: 5px white;
+  }
+
+.row   {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between items */
+    gap: 1%;
+    margin: 1%;
+  }
+
+.profile    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20%;
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.box    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+/*    background-image: url("./images/wood-2045379_1280.jpg");*/
+/*    background-image: url("./images/wood-2045380_1280.jpg");*/
+    background-image: url("./images/wood-2065366_1280.jpg");
+    border: 4px solid black;
+    border-radius: 20%;
+    width: 25%;    
+    margin: 1%;
+    padding: 1%;
+}
+
+    
+    
+    
+
+
+
+.image-container {
+    background-image: url("./images/play.png");
+    border: 4px solid black;
+    border-radius: 20%;    
+    width: 300px;
+    height: 200px;
+}
+
+a   {
+    width: 300px;
+    margin: 0%;
+    padding: 0%;
+}
+
+a > img {box-shadow: inset;}
+
+
+
+
+
+
+
+  /* Basic button styles */
+  .main-button {
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid black;
+    width: 290px;
+    height: 50px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 25%;
+  }
+
+
+/* Basic button styles */
+  .main-button:hover {
+    padding: 10px 20px;
+    background-color: #156819;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid black;
+    }
+
+  /* Styles for the choice buttons (hidden initially) */
+  .choice-buttons {
+    display: none; /* Hide the buttons initially */
+    margin-top: 10px;
+    position: absolute;
+  }
+
+  .choice-buttons button {
+    float:left;
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    }
+
+  .choice-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+
+  @media (max-width: 10in) {
+    /* CSS rules for screens with max width of 6 inches and max height of 4 inches */
+    div.row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
